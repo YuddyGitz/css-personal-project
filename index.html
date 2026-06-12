@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Udensi | Personal Profile</title>
+    <title>Hero Section</title>
     <link rel="stylesheet" href="./CSS/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
+<header></header>
+    <section class="hero">
 
+        <!-- Background Image -->
+        <div class="hero-bg">
+            
+        </div>
+
+        <!-- Dark Overlay -->
+        <div class="overlay"></div>
+
+        <!-- Navbar -->
+         <div class="header">
+        <div class="navbar">
             <div class="logo">
                 <div class="spinner">
                     <div class="ring"></div>
@@ -21,194 +33,304 @@
                 <span>Denzix</span>
             </div>
 
-                <ul class="desktop-nav-link">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li>
-                        <a href="#">Skills</a>
-                        <ul>
-                            <li><a href="#skills">Html</a></li>
-                            <li><a href="#skills">Vanilla CSS</a></li>
-                            <li><a href="#skills">Git-Hub</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
+            </nav>
 
-                <a href="#">My Books</a>
-
-            <div class="mobile">
-                <button><i class="fa-solid fa-bars-staggered"></i></button>
-                <ul class="mobile-dropdown">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li>
-                        <a href="#skills">Skills</a>
-                        <ul>
-                            <li><a href="#skills">Html</a></li>
-                            <li><a href="#skills">Vanilla CSS</a></li>
-                            <li><a href="#skills">Git-Hub</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#project">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#">My Books</a></li>
-                </ul>                
-            </div>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="hero" class="hero">
-            <div class="hero-content">
-
-                <div class="personal-picture">
-                    <img src="./Images/Udpink.jpg" alt="Udensi Okechukwu">
-                </div>
-
-                <div class="hero-text">
-                    <h1>UDENSI OKECHUKWU</h1>
-                    <p>Full-Stack Web Developer in Training</p>
-                    <a href="#project">View My Work</a>
-                </div>
-               
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
 
-            <div class="overlay"></div>
-        </section>
+            <button class="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+
+            <button class="slider-btn left">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+
+            <div class="content">
+                <h2>I am</h2>
+
+                <h1>
+                    Udensi Okechukwu
+                </h1>
+
+                <p>
+                    A Full-Stack Web Developer in Training. Focused on creating innovative, user-centered solutions that solve real-world problems through technology.
+                </p>
+            </div>
+
+            <button class="slider-btn right">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+        <!-- Bottom Progress Line -->
+        <div class="progress-line">
+            <span></span>
+        </div>
+
+    </section>
+
 
         <section id="about" class="about">
-            <h2>About Me</h2>
+            <div class="about-container">
 
-            <article class="about-me">
+                <h2>About Me</h2>
 
-                <div class="aboutMe-Image">
-                    <img src="./Images/Udblue.jpg" alt="Udensi-Ok">
-                </div>
+                <article class="about-me">
 
-                <p>
-                    I am a full-stack web application developer in training with a strong focus on building practical, real-world solutions, for any sector. I have background as a tech lover and commitment to learn developing systems that could solve operational challenges.  I am deeply interested in using technology to improve efficiency, accuracy, and decision-making.
-                </p>
-                <p>
-                    I have a passion to create systems that have a direct and measurable impact. I am motivated by turning real-life challenges into structured, scalable digital solutions. 
-                </p>
-                <p>
-                    I am learning now and will continuously improve my web development skills to build robust, user-friendly, and scalable applications that can be deployed across multiple organizations.
-                </p>
-            </article>
+                    <div class="aboutMe-Image">
+                        <img src="./Images/Udblue.jpg" alt="Udensi Ok">
+                    </div>
+
+                    <div class="about-text">
+                        <p>
+                            I am a full-stack web application developer in training with a strong focus on building practical, real-world solutions across multiple sectors. I have a strong passion for technology and a commitment to developing systems that solve real operational challenges.
+                        </p>
+
+                        <p>
+                            I am deeply interested in using technology to improve efficiency, accuracy, and decision-making. I enjoy turning complex problems into structured and scalable digital solutions.
+                        </p>
+
+                        <p>
+                            I continuously improve my web development skills to build robust, user-friendly, and scalable applications that can be deployed across organizations and industries.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
         </section>
 
         <section id="skills" class="skills">
-            <h2>My Skills </h2>
-            <p>Technologies and tools I am currently learning and using. </p>
+    
+            <div class="skills-container">
 
-            <article class="skills-list">
-                
-                <div class="html">
-                    <div><i class="fa-solid fa-code"></i></div>
-                    <div>HTML5</div>
-                </div>
+                <h2>My Skills</h2>
+                <p class="subtitle">
+                    Technologies and tools I am currently learning and using.
+                </p>
 
-                <div class="css">
-                    <div><i class="fa-brands fa-css"></i></div>
-                    <div>CSS</div>
-                </div>
+                <article class="skills-list">
 
-                <div class="github">
-                    <div><i class="fa-brands fa-github"></i></div>
-                    <div>GIT-HUB</div>
-                </div>
+                    <!-- HTML Skill Card -->
+                    <div class="skill-card html">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>HTML5</h3>
+                        <p>Structure & semantic web building blocks</p>
+                    </div>
 
-            </article>
+                    <!-- CSS Skill Card -->
+                    <div class="skill-card css">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <p>Responsive design & modern UI styling</p>
+                    </div>
+
+                    <!-- GitHub Skill Card -->
+                    <div class="skill-card github">
+                        <i class="fa-brands fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Version control & collaboration workflow</p>
+                    </div>
+
+                </article>
+
+            </div>
+
         </section>
 
         <section id="project" class="project">
-            <h2>My Projects</h2>
 
-            <article class="project-cards">
-                <div class="indv-projects">                 
-                   
-                    <a href="#">ShopEase-Market</a>
-                   
-                    <p>
-                        ShopEase-Market is a one-stop e-commerce platform for fashion, offering affordable, readily available styles with high quality and a modern sense of fashion.
-                    </p>
+            <div class="project-container">
 
-                    <p>
-                        Development is ongoing, built with HTML5 and Vanilla CSS, with backend integration coming soon.
-                    </p>
+                <h2>My Projects</h2>
+                <p class="subtitle">
+                    A selection of systems and applications I am currently building and improving.
+                </p>
 
-                </div>
+                <article class="project-cards">
 
-                <div class="indv-projects">     
-                    <a href="">Hims Web-App</a>
+                    <!-- Project 1 -->
+                    <div class="project-card">
 
-                    <p>
-                        A Hospital Information Management System (HIMS) is an integrated digital platform that manages patient records, billing, inventory, and hospital operations.
-                    </p>
-                    <p>
-                        Development is ongoing, built with HTML5 and Vanilla CSS, with backend integration coming soon.
-                    </p>
+                        <div class="project-img">
+                            <img src="./Images/Ecommerce.PNG" alt="ShopEase Market">
+                            <div class="img-overlay">
+                                <a href="#" class="btn-project">
+                                    <i class="fa-solid fa-eye"></i>
+                                    View Project
+                                </a>
+                            </div>
+                        </div>
 
-                </div>
+                        <div class="project-content">
+                            <h3>ShopEase-Market</h3>
+                            <p>Fashion e-commerce platform with modern UI and affordable products.</p>
+                        </div>
 
-                <div class="indv-projects">                 
-                   
-                    <a href="#">SPA Soft Hands</a>
-                            
-                    <p>
-                        We offer wellness and relaxation services such as massages, facials, body treatments, and skincare therapies. 
-                    </p>
-                    <p>
-                        Development is ongoing, built with HTML5 and Vanilla CSS, with backend integration coming soon.
-                    </p>
+                    </div>
 
-                </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
 
-                <div class="indv-projects">                 
-                  
-                    <a href="#">Subcheckz</a>
+                        <div class="project-img">
+                            <img src="./Images/HimsProject.PNG" alt="HIMS App">
+                            <div class="img-overlay">
+                                <a href="#" class="btn-project">
+                                    <i class="fa-solid fa-eye"></i>
+                                    View Project
+                                </a>
+                            </div>
+                        </div>
 
-                    <p>
-                        A gym subscription platform that manages memberships, payments, class bookings, and attendance, providing a seamless experience for customers while helping gyms streamline operations and track performance.
-                    </p>
-                    <p>
-                        Development is ongoing, built with HTML5 and Vanilla CSS, with backend integration coming soon.
-                    </p>
+                        <div class="project-content">
+                            <h3>HIMS Web-App</h3>
+                            <p>Hospital Information Management System for digital healthcare operations.</p>
+                        </div>
 
-                </div>
+                    </div>
 
-            </article>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+
+                        <div class="project-img">
+                            <img src="./Images/PricingProject.PNG" alt="SPA Soft Hands">
+                            <div class="img-overlay">
+                                 <a href="#" class="btn-project">
+                                    <i class="fa-solid fa-eye"></i>
+                                    View Project
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <h3>SPA Soft Hands</h3>
+                            <p>Wellness and relaxation booking system for spa services.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card">
+
+                        <div class="project-img">
+                            <img src="./Images/Subcheckz.PNG" alt="Subcheckz">
+                            <div class="img-overlay">
+                                <a href="#" class="btn-project">
+                                    <i class="fa-solid fa-eye"></i>
+                                    View Project
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="project-content">
+                            <h3>Subcheckz</h3>
+                            <p>Gym subscription and membership management system.</p>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
 
         </section>
 
         <section id="contact" class="contact">
-            <h2>Contact Me</h2>
-            <p>Contact Me for your perfect and professional Web App developments.</p>
-            <div class="form-grid">
-                <div class="form">
-                    <form action="">
-                        <label for="name">Name <span>*</span></label>
-                        <input type="text" id="name" placeholder="Enter Your Name" required>
-                     
-                        <label for="email">Email <span>*</span></label>
-                        <input type="email" id="email" placeholder="eg.email@gmail.com" required>
 
-                        <label for="message">Message <span>*</span></label>
-                        <textarea name="message" id="message" placeholder="Short Message Here.........." required></textarea>
-                    </form>
+            <div class="contact-container">
+
+                <h2>Contact Me</h2>
+                <p class="subtitle">
+                    Let’s build something amazing together. Reach out for professional web applications.
+                </p>
+
+                <div class="form-grid">
+
+                    <!-- FORM -->
+                    <div class="form-card">
+
+                        <form>
+
+                            <div class="input-box">
+                                <label for="name">Name <span>*</span></label>
+                                <input type="text" id="name" placeholder="Enter your name" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="email">Email <span>*</span></label>
+                                <input type="email" id="email" placeholder="eg. email@gmail.com" required>
+                            </div>
+
+                            <div class="input-box">
+                                <label for="message" >Message <span>*</span></label>
+                                <textarea id="message" placeholder="Write your message..." required></textarea>
+                            </div>
+
+                            <button type="submit">
+                                Send Message
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                    <!-- SOCIALS -->
+                    <div class="socials">
+
+                        <a href="#" class="social facebook">
+                            <img src="./Images/facebook.svg" alt="">
+                            <span>Facebook</span>
+                        </a>
+
+                        <a href="#" class="social instagram">
+                            <img src="./Images/instagram.svg" alt="">
+                            <span>Instagram</span>
+                        </a>
+
+                        <a href="#" class="social linkedin">
+                            <img src="./Images/linkedin.svg" alt="">
+                            <span>LinkedIn</span>
+                        </a>
+
+                        <a href="#" class="social whatsapp">
+                            <img src="./Images/whatsapp.svg" alt="">
+                            <span>WhatsApp</span>
+                        </a>
+
+                    </div>
+
                 </div>
-                <div class="socials">
-                    <a href="#"><img src="./Images/facebook.svg" alt="Free Shipping" width="30">Facebook</a>
-                    <a href="#"><img src="./Images/instagram.svg" alt="Free Shipping" width="30">Instagram</a>
-                    <a href="#"><img src="./Images/linkedin.svg" alt="Free Shipping" width="30">LinkedIn</a>
-                    <a href="#"><img src="./Images/whatsapp.svg" alt="Free Shipping" width="30">Whatsapp</a>
-                </div>
+
             </div>
+
         </section>
         <footer class="footer">
-            <h6>&copy; 2026 Denzix Software. All Rights Reserved.</h6>
+
+            <div class="footer-container">
+
+                <p>
+                    &copy; 2026 <span>Denzix Software</span>. All Rights Reserved.
+                </p>
+
+            </div>
+
         </footer>
     </main>
 </body>
