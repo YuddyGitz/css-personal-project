@@ -592,6 +592,18 @@ form input::placeholder{
     font-weight: 900;
 }
 
+
+
+    .socials a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: blue;
+        gap: 0.1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
 .footer{
     background-color: black;
     color: white;
