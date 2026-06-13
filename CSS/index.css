@@ -166,6 +166,12 @@ body{
     padding:2rem 1.25rem;
 }
 
+.view-work{
+    width: 55%;
+    font-size: 1rem;
+    margin-left: 25%;
+}
+
 .content{
     max-width:100%;
     margin-top: 14%;
@@ -841,6 +847,12 @@ button:hover{
         justify-content:space-between;
         text-align:left;
         padding:0 3rem;
+    }
+
+    .view-work{
+        width: 30%;
+        font-size: 1rem;
+        margin-left: 0%;
     }
 
     .slider-btn{
