@@ -789,6 +789,36 @@ button:hover{
     color: #fff;
 }
 
+.scrow-top{
+    background-color:rgb(252, 219, 137);
+    position: fixed;
+    bottom: 125px;
+    right: 5%;
+    z-index: 500;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    animation: scrolls 3s ease-in-out 1s infinite;
+    box-shadow: 0px 2px 18px 6px rgba(248, 247, 247, 0.30);
+}
+
+@keyframes scrolls {
+    0%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(0.5rem);
+    }
+    100%{
+        transform: translateY(0rem);
+    }
+}
+
 /* ==========================================
    TABLET (768px+)
 ========================================== */
